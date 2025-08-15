@@ -1,0 +1,9 @@
+import './components/app-root';
+import './components/home-screen';
+import './components/beat-timer-screen';
+import './components/countdown-screen';
+import './components/task-timer-screen';
+import './components/success-screen';
+import './components/failure-screen';
+import './components/guide-screen';
+import './components/language-screen';
