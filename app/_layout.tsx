@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useFrameworkReady } from '@/hooks/useFrameworkReady';
-import { useFonts, Nunito_400Regular, Nunito_600SemiBold, Nunito_700Bold } from '@expo-google-fonts/nunito';
+import { useFonts, Fredoka_400Regular, Fredoka_600SemiBold, Fredoka_700Bold } from '@expo-google-fonts/fredoka';
 import * as SplashScreen from 'expo-splash-screen';
 
 SplashScreen.preventAutoHideAsync();
@@ -11,9 +11,9 @@ export default function RootLayout() {
   useFrameworkReady();
 
   const [fontsLoaded] = useFonts({
-    'Nunito-Regular': Nunito_400Regular,
-    'Nunito-SemiBold': Nunito_600SemiBold,
-    'Nunito-Bold': Nunito_700Bold,
+    'Fredoka-Regular': Fredoka_400Regular,
+    'Fredoka-SemiBold': Fredoka_600SemiBold,
+    'Fredoka-Bold': Fredoka_700Bold,
   });
 
   useEffect(() => {
